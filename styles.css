@@ -1,0 +1,245 @@
+.bg-dark {
+    background-color: #343a40!important;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*.carousel-c{
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    color: #fff;
+    text-align: center;
+    
+
+}*/
+.p {
+   
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.subt{
+    padding-top: 1px;
+    text-align: center;
+    text-transform: uppercase;
+  
+}
+
+.tit{
+     
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sub{
+    margin-top:0rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.valor{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.btn {
+   
+    margin-bottom: 1rem;
+}
+.colorA{
+    display: inline-block;
+    padding: 1px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    margin-top: 2rem; 
+    padding: 0.25px;
+}
+.colorV{
+    display: inline-block;
+    padding: 1px;
+    background-color:rgb(0, 158, 216);
+    color: white;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 2rem; 
+    padding: 0.25px;
+}
+.coloG{
+    display: inline-block;
+    padding: 1px;
+    background-color:rgb(45, 56, 60);
+    color: rgb(45, 56, 60);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 2rem; 
+    padding: 0.25px;
+}
+.colorR{
+    display: inline-block;
+    padding: 1px;
+    background-color:rgb(217, 0, 0);
+    color: rgb(45, 56, 60);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 2rem; 
+    padding: 0.25px;
+}
+
+
+.containerr {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    text-align: right;
+  }
+  .image {
+    width: 100vw;
+    height: auto;
+    filter: brightness(65%);
+  }
+  .content {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    display: inline-block;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: right;
+  }
+  .textt {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-left: 50%;
+    
+  }
+ 
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 80;
+    right: 0;
+  }
+ 
+  /*css del html compraTicket*/
+
+.productos{
+    width: 940;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 0.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;/*al tamaño de la caja le definimos los bordes q se acomodarán al ancho del monitor*/
+   
+   
+}
+.border1{
+    border: 2px solid #2821e1;/*así será el borde*/
+}
+.border2{
+    border: 2px solid #007e4a;/*así será el borde*/
+}
+.border3{
+    border: 2px solid #d6ba19;/*así será el borde*/
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px; /*margen hacia arriba*/
+}
+.productos li:hover h2{
+    font-size: 35px;
+}
+.descripcion-parrafo{
+    font-size: 22px;
+}
+.descripcion-precio{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px; 
+}
+.documentacion{
+    font-size: 18px;
+}
+.container {
+  margin-top: 50px;
+}
+.btn-containerr {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-containerr button {
+  flex-grow: 1;
+  margin-left: 5px;
+}
+.form-controll{
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
+        height: calc(2em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #000000;
+        background-color: #a4d3f3;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
