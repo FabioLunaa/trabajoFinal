@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo final CaC</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  </head>
+
+  <body>
+    
+     <!--Header-->
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#"> Conf Bs As</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Los oradores </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Convíertete en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #009325";> Comprar tickets</a >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!--main-->
+      <main class="container center">
+        <ul class="productos">
+          <li class="border1">
+            <h2>Estudiante</h2>
+           <br>
+            <p class="descripcion-parrafo">Tienen un descuento</p>
+            <p class="descripcion-precio">80%</p><br>
+            <p class="documentacion">*presentar documentación</p>
+          </li>
+          <li class="border2">
+            <h2>Trainee</h2>
+            <br>
+            <p class="descripcion-parrafo">Tienen un descuento</p>
+            <p class="descripcion-precio">50%</p><br>
+            <p class="documentacion">*presentar documentación</p>
+          </li>
+          <li class="border3">
+            <h2>Junior</h2>
+            <br>
+            <p class="descripcion-parrafo">Tienen un descuento</p>
+            <p class="descripcion-precio">15%</p><br>
+            <p class="documentacion">*presentar documentación</p>
+          </li>
+        </ul>
+        <p class="sub ">Venta</p>
+        <div class="container">
+          <h1 class="valor">Valor de ticket: $200</h1>
+          <div class="row">
+      
+            <div class="col-md-6">
+              <form id="formNombre">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <form id="formApellido">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-12">
+              <form id="formCorreo">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="correo" placeholder="Correo" required>
+                </div>
+              </form>
+            </div>
+      
+            <div class="col-md-6">
+              <form id="formCantidad">
+                <div class="form-group">
+                  <label for="cantidadTickets">Cantidad:</label>
+                  <input type="number" class="form-control" id="cantidadTickets" placeholder="cantidad" required>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <form id="formCategoria">
+                <div class="form-group">
+                  <label for="categoria">Categoría:</label>
+                  <select class="form-control" id="categoria" required>
+                    <option value="">Seleccione una categoría</option>
+                    <option value="estudiante">Estudiante</option>
+                    <option value="trainee">Trainee</option>
+                    <option value="junior">Junior</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
+          <form id="formResultado">
+            <div class="form-group">
+             
+              <input type="text" class="form-controll " id="resultado" readonly placeholder="Total a pagar: $">
+            </div>
+          </form>
+          <div class="btn-containerr">
+          <button type="button" class="btn btn-success" onclick="borrarCampos()">Borrar</button>
+          <button type="button" class="btn btn-success" onclick="calcularDescuento()">Resumen</button>
+         </div>
+      
+        </div>
+      
+
+      </main>
+
+      <footer style="background-color: #28526a; color: #ffffff; padding: 20px">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-2">
+              <h6>Preguntas frecuentes</h6>
+            </div>
+            <div class="col-md-2">
+              <h6>Contáctanos</h6>
+            </div>
+            <div class="col-md-2">
+              <h6>Prensa</h6>
+            </div>
+            <div class="col-md-2">
+              <h6>Conferencias</h6>
+            </div>
+            <div class="col-md-2">
+              <h6>Términos y condiciones</h6>
+            </div>
+            <div class="col-md-2">
+              <h6>Privacidad</h6>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <script src="compra.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+
+  </body>
